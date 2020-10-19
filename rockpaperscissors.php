@@ -43,15 +43,16 @@
                     <td colspan="5">
                         <?php 
 
-                        // data from form being stored in variable
-                        if($_SERVER["REQUEST_METHOD"] == "POST")
+                        
+                        if($_SERVER["REQUEST_METHOD"] == "POST")    // data from form being stored in variable
                             {   
-                                $user_choice = $_POST['user_choice'];
-                                $choose = array("Rock", "Paper", "Scissors");
-                                $choice = rand(0, 2);
-                                $comp = $choose[$choice];
+                                
+                                $user_choice = $_POST['user_choice'];   // user_choice is the name of the variable from the form.
+                                $choose = array("Rock", "Paper", "Scissors");   // Using the array to make a choice for the player and the computer.
+                                $choice = rand(0, 2);   // Random selection.
+                                $comp = $choose[$choice];   // What the computer will choose versus the player.
 
-                            if($choice == $comp) 
+                            if($choice == $comp)    // If the computer picks the right choice; the computer will win and vice versa.
                                         {
                                             echo 'Player: '.$user_choice.' <br><br> CPU: '.$comp.' <br><br> Result: <b>YOU WIN!</b>';
                                         }
