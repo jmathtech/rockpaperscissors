@@ -1,5 +1,5 @@
 # Rock, Paper, Scissors | SHOOT
-A game of rock, paper, scissors written in PHP.
+A game of rock, paper, scissors written in PHP on a HTML document.
 
 ### What I've learned
 Using an array to list the options to choose from when the User and Computer says 'SHOOT'.
