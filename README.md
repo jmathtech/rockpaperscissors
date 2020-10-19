@@ -2,7 +2,7 @@
 A game of rock, paper, scissors written in PHP on a HTML document.
 
 ## DEMO
-[Rock, Paper, Scissors](https://jmath.tech/php/rockpaperscissors.php)
+* [Rock, Paper, Scissors](https://jmath.tech/php/rockpaperscissors.php)
 
 ### What I've learned
 Using an array to list the options to choose from when the User and Computer says 'SHOOT'.
