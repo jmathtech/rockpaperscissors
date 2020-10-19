@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Rock, Paper, Scissors | SHOOT!</title>
-            <link rel="stylesheet" href="rpsstyle.css">
+            <link rel="stylesheet" href="css/rpsstyle.css">
     </head>
 
     <body>
