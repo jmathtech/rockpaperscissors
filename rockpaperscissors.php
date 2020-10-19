@@ -42,7 +42,6 @@
                 <tr>
                     <td colspan="5">
                         <?php 
-
                         
                         if($_SERVER["REQUEST_METHOD"] == "POST")    // data from form being stored in variable
                             {   
