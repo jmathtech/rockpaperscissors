@@ -8,7 +8,7 @@
     <body>
 
         <table border="1px">
-            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
+            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">    // $_SERVER is an array that contains information like headers, paths, and script locations. 'PHP_SELF' will send the information to the web server within the script.
                 <tr>
                     <td><h2>Rock, Paper, Scissors</h2>
                     </td>
