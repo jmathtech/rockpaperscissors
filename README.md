@@ -1,5 +1,5 @@
 # Rock, Paper, Scissors | SHOOT
-A game of rock, paper, scissors written in PHP on a HTML document.
+A game of rock, paper, scissors written in PHP within a HTML document.
 
 ## DEMO
 * [Rock, Paper, Scissors](https://jmath.tech/php/rockpaperscissors.php)
