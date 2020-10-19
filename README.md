@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors | SHOOT
 A game of rock, paper, scissors written in PHP on a HTML document.
 
-### DEMO
+## DEMO
 [Rock, Paper, Scissors](https://jmath.tech/php/rockpaperscissors.php)
 
 ### What I've learned
