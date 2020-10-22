@@ -19,19 +19,19 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="radio" id="rock" name="user_choice" value="Rock" />
+                        <input class="option" type="radio" id="rock" name="user_choice" value="Rock" />
                         <label for="rock">Rock</label><br />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="radio" id="paper" name="user_choice" value="Paper" />
+                        <input class="option" type="radio" id="paper" name="user_choice" value="Paper" />
                         <label for="paper">Paper</label><br />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="radio" id="scissors" name="user_choice" value="Scissors" />
+                        <input class="option" type="radio" id="scissors" name="user_choice" value="Scissors" />
                         <label for="scissors">Scissors</label><br />
                     </td>
                 </tr>
@@ -66,7 +66,17 @@
                 </tr>
             </form>
         </table>
-
+        
+        <script>
+            const options = document.querySelectorAll('.option');
+            options.forEach(option=>option.addEventListener('click',()=>{
+                clearTimeout(myTimeout);
+            }))
+            
+            const myTimeout = setTimeout(() => {
+                alert('Player must choose an option');
+            }, 3000);
+        </script>
     </body>
 
     
