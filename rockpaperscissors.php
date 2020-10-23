@@ -66,17 +66,6 @@
                 </tr>
             </form>
         </table>
-        
-        <script>
-            const options = document.querySelectorAll('.option');
-            options.forEach(option=>option.addEventListener('click',()=>{
-                clearTimeout(myTimeout);
-            }))
-            
-            const myTimeout = setTimeout(() => {
-                alert('Player must choose an option');
-            }, 3000);
-        </script>
     </body>
 
     
