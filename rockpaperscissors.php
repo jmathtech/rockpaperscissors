@@ -8,7 +8,7 @@
     <body>
 
         <table border="1px">
-            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">    // $_SERVER is an array that contains information like headers, paths, and script locations. 'PHP_SELF' will send the information to the web server within the script.
+            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
                 <tr>
                     <td><h2>Rock, Paper, Scissors</h2>
                     </td>
@@ -19,19 +19,19 @@
                 </tr>
                 <tr>
                     <td>
-                        <input class="option" type="radio" id="rock" name="user_choice" value="Rock" />
+                        <input type="radio" id="rock" name="user_choice" value="Rock" />
                         <label for="rock">Rock</label><br />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input class="option" type="radio" id="paper" name="user_choice" value="Paper" />
+                        <input type="radio" id="paper" name="user_choice" value="Paper" />
                         <label for="paper">Paper</label><br />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input class="option" type="radio" id="scissors" name="user_choice" value="Scissors" />
+                        <input type="radio" id="scissors" name="user_choice" value="Scissors" />
                         <label for="scissors">Scissors</label><br />
                     </td>
                 </tr>
@@ -42,7 +42,7 @@
                 <tr>
                     <td colspan="5">
                         <?php 
-                        
+
                         if($_SERVER["REQUEST_METHOD"] == "POST")    // data from form being stored in variable
                             {   
                                 
@@ -66,6 +66,7 @@
                 </tr>
             </form>
         </table>
+
     </body>
 
     
