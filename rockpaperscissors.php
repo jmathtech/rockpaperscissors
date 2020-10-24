@@ -11,6 +11,7 @@
             <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
                 <tr>
                     <td><h2>Rock, Paper, Scissors</h2>
+                    <h4>by Jamil Matheny</h4>
                     </td>
                 </tr>
                 <tr>
