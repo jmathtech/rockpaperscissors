@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors | SHOOT
+# Rock, Paper, Scissors
 A game of rock, paper, scissors written in PHP within a HTML document.
 
 ## DEMO
